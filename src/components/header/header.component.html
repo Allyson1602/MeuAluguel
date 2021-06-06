@@ -1,10 +1,10 @@
-<header>
+<header [ngStyle]="{ 'background-color': isOnMenu ? '#ccc' : '#fff' }">
     <div class="btn-menu" (click)="toggleMenu()">
-        <span class="triangle"></span>
         <p>logo</p>
+        <div class="triangle"></div>
     </div>
 
-    <ul>
+    <ul [ngStyle]="{ 'display': isOnMenu ? 'block' : 'none' }">
         <li><a href="">Item navegação</a></li>
         <li><a href="">Item navegação</a></li>
         <li><a href="">Item navegação</a></li>
