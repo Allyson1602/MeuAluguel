@@ -1,0 +1,55 @@
+<div class="advert">
+    <div class="header">
+        <h2>Título</h2>
+
+        <div class="space-items">
+            <p>Nome do proprietário</p>
+            <button>quero alugar</button>
+        </div>
+    </div>
+    <div class="slide">
+        <swiper
+          [slidesPerView]="1"
+          [spaceBetween]="5"
+          (swiper)="onSwiper($event)"
+          (slideChange)="onSlideChange()"
+          [navigation]="true"
+          [pagination]="{ clickable: true }"
+        >
+          <ng-template swiperSlid estyle="width: 100% !important;"><img src="../../assets/images/apartamento1.jpg" alt="Imagem do apartamento" /></ng-template>
+          <ng-template swiperSlide><img src="../../assets/images/apartamento1.jpg" alt="Imagem do apartamento" /></ng-template>
+          <ng-template swiperSlide><img src="../../assets/images/apartamento1.jpg" alt="Imagem do apartamento" /></ng-template>
+          <ng-template swiperSlide><img src="../../assets/images/apartamento1.jpg" alt="Imagem do apartamento" /></ng-template>
+          <ng-template swiperSlide><img src="../../assets/images/apartamento1.jpg" alt="Imagem do apartamento" /></ng-template>
+          <ng-template swiperSlide><img src="../../assets/images/apartamento1.jpg" alt="Imagem do apartamento" /></ng-template>
+        </swiper>
+    </div>
+    <div class="informations">
+        <swiper
+          [slidesPerView]="1"
+          [spaceBetween]="50"
+          [pagination]="{ clickable: true }"
+        >
+            <ng-template swiperSlide>
+                <h3>Tipo de informação:</h3>
+                <p>Não obstante, o acompanhamento das preferências de consumo cumpre um papel essencial na formulação do orçamento setorial.</p>
+            </ng-template>
+            <ng-template swiperSlide>
+                <h3>Tipo de informação:</h3>
+                <p>Não obstante, o acompanhamento das preferências de consumo cumpre um papel essencial na formulação do orçamento setorial.</p>
+            </ng-template>
+            <ng-template swiperSlide>
+                <h3>Tipo de informação:</h3>
+                <p>Não obstante, o acompanhamento das preferências de consumo cumpre um papel essencial na formulação do orçamento setorial.</p>
+            </ng-template>
+            <ng-template swiperSlide>
+                <h3>Tipo de informação:</h3>
+                <p>Não obstante, o acompanhamento das preferências de consumo cumpre um papel essencial na formulação do orçamento setorial.</p>
+            </ng-template>
+            <ng-template swiperSlide>
+                <h3>Tipo de informação:</h3>
+                <p>Não obstante, o acompanhamento das preferências de consumo cumpre um papel essencial na formulação do orçamento setorial.</p>
+            </ng-template>
+        </swiper>
+    </div>
+</div>
