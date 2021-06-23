@@ -10,6 +10,7 @@ import { RegisterComponent } from '../pages/register/register-page.component';
 import { HeaderComponent } from '../components/header/header.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { AdvertComponent } from '../pages/advert/advert.component';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AdvertComponent } from '../pages/advert/advert.component';
     BrowserModule,
     AppRoutingModule,
     MatIconModule,
-    FormsModule
+    FormsModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
