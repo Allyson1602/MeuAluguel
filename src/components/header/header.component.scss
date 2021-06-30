@@ -15,24 +15,13 @@ ul {
 }
 
 .btn-menu {
-    // border: 1px solid red;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 
-    p {
-        position: absolute;
-        top: 4px;
-    }
-    
-    .triangle {
-        display: inline-block;
-        width: 0; 
-        height: 0; 
-        border-left: 25px solid transparent;
-        border-right: 25px solid transparent;
-        border-bottom: 30px solid #ccc;
+    .logo {
+        width: 60px;
     }
 }
